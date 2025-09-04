@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя медиатека</title>
+</head>
+<body>
+    <header>
+        <h1>Моя медиатека</h1>
+    </header>
+        <main>
+        <section>
+            <h2>Музыка</h2>
+            <form>
+                <label for="music-genre">Выберите жанр музыки:</label>
+                <select id="music-genre" name="music-genre">
+                    <option value="rock">Рок</option>
+                    <option value="pop">Поп</option>
+                    <option value="jazz">Джаз</option>
+                    <option value="classical">Классика</option>
+                </select>
+                <button type="submit">Отправить</button>
+            </form>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <section>
+            <h2>Видео</h2>
+            <video controls width="400">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025, Студент</p>
+    </footer>
+</body>
+</html>
